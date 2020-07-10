@@ -5,12 +5,12 @@ class SubsController < ApplicationController
   def index
     @subs = Sub.all
 
-    render json: @subs
+    render json: @subs.to_json(include: :users)
   end
 
   # GET /subs/1
   def show
-    render json: @sub
+    render json: @sub.to_json(include: :users)
   end
 
   # POST /subs
