@@ -3,7 +3,7 @@
 ## Project Link
 
 ## Technologies Used
-- React JS
+- React
 - Ruby on Rails
 - HTML5
 - CSS
