@@ -37,3 +37,5 @@ Column | "name"
 - As a user, I would like to see how much my total spend is with a subscription.
 
 ## Challenges / Future Goals
+- Still need to add CSS styling
+

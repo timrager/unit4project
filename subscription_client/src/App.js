@@ -113,8 +113,8 @@ class App extends Component{
                 { user.subs.map( sub => {
                   return(
                     <div>
-                      <p>{sub.name}</p>
-                      <p>{sub.price}</p>
+                      <p>Subscription Name: {sub.name}</p>
+                      <p>Price: {sub.price}</p>
                     </div>
                   )
                 })}
