@@ -38,4 +38,4 @@ Column | "name"
 ## Challenges / Future Goals
 - Still need to add CSS styling
 - Refactor functions and display components out of App.js
-- 
+- Redesign scheme to allow easier write to multiple DBs simultaneously
