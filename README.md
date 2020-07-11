@@ -16,7 +16,7 @@ With this many-to-many relationship, the following database schemas are being us
 A User table to hold user information
 Column | name
 --- | ---
- | string
+ -- | string
 
 A 
 
