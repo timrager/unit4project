@@ -20,10 +20,12 @@ Column | "name"
 
  A Subs table to hold subscription information
  Column | "name" | "price"
+ --- | --- | ---
  -- | string | decimal{8.2}
 
  A Registers table to link the two tables in a many-to-many relationship
  Column | "user_id" | "sub_id" | "qty" | "frequency" | "start_date" | "end_date"
+ --- | --- | --- | --- | --- | --- | ---
  -- | foreign key | foreign key | integer | string | date | date
 
 
