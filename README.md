@@ -14,8 +14,11 @@ Since a user can have many subscriptions, it's also possible a subscription can 
 With this many-to-many relationship, the following database schemas are being used:
 
 A User table to hold user information
-User | name
+Column | name
 --- | ---
+ | string
+
+A 
 
 
 ## User Stories
