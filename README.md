@@ -1,6 +1,7 @@
 # Subscription Tracker
 
 ## Project Link
+https://subscription-app-api.herokuapp.com
 
 ## Technologies Used
 - React
@@ -29,8 +30,6 @@ Column | "name"
  -- | foreign key | foreign key | integer | string | date | date
 
 
-
-
 ## User Stories
 - As a user, I want to be able to see all of my subscriptions.
 - As a user, I want to be able to add/delete/modify subscriptions related to me.
@@ -38,4 +37,5 @@ Column | "name"
 
 ## Challenges / Future Goals
 - Still need to add CSS styling
-
+- Refactor functions and display components out of App.js
+- 

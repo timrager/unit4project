@@ -6,8 +6,9 @@ class App extends Component{
 
   state = {
     users: [],
+    subs: [],
     formInputs: {
-      name: ''
+      userName: ''
     }
   }
   
@@ -110,14 +111,14 @@ class App extends Component{
                   <button onClick={()=> this.updateUser(user)}>Update</button>
                   <button onClick={()=> this.deleteUser(user)}>Delete</button>
                 </form>
-                { user.subs.map( sub => {
-                  return(
-                    <div>
-                      <p>Subscription Name: {sub.name}</p>
-                      <p>Price: {sub.price}</p>
-                    </div>
-                  )
-                })}
+                  { user.subs.map( sub => {
+                    return(
+                      <div>
+                        <p>Subscription Name: {sub.name}</p>
+                        <p>Price: {sub.price}</p>
+                      </div>
+                    )
+                  })}
               </div>
             )
           })}
